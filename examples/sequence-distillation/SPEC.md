@@ -312,7 +312,7 @@ student must beat the base it was distilled from.
 | `eval_inputs/` | Litmus eval datasets (git-ignored) |
 | `data/` | Training/validation JSONL written by the data-prep notebook (git-ignored) |
 | `shopbench-eval/ShoppingBench/` | Vendored benchmark harness + data/index |
-| `README.md` | End-user instructions | 
+| `README.md` | End-user instructions |
 | `SPEC.md` | This document |
 
 ### Conventions
