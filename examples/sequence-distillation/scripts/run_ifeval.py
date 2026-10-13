@@ -13,7 +13,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--base-url", required=True)
 ap.add_argument("--out", required=True)
 ap.add_argument("--lm-eval", default="lm_eval", help="lm_eval executable (its own venv: lm_eval[api,ifeval])")
-ap.add_argument("--concurrency", type=int, default=8)
+ap.add_argument("--concurrency", type=int, default=8, help="lm-eval num_concurrent (parallel requests).")
 ap.add_argument("--max-tokens", type=int, default=1280)
 args = ap.parse_args()
 
