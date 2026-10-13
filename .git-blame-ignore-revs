@@ -1,0 +1,5 @@
+# Formatting-only commits, skipped by `git blame` and GitHub's blame view.
+# Local use: git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# pre-commit hooks run (examples/sequence-distillation)
+31d0393656153e1a1f01755752d1c7e6109cfc7b
